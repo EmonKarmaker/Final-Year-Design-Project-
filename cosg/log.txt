@@ -1,0 +1,50 @@
+Files found. Proceeding...
+Expression data loaded: (27933, 24185)
+Metadata loaded: (24216, 11)
+Checking for duplicates in metadata cell barcodes...
+30 duplicates found in metadata.
+Duplicates removed. Metadata shape: (24186, 11)
+0 barcodes missing in metadata. Filling missing rows with NaN.
+Cluster column converted to categorical.
+AnnData object created.
+Data normalized and log-transformed.
+Samples per cluster before filtering:
+cluster
+Immature-Pyr            4520
+GC-juv                  3420
+GC-adult                2613
+Immature-GC             2419
+Neuroblast              1381
+Astro-adult             1232
+Immature-GABA           1024
+Astro-juv                821
+OPC                      794
+MOL                      704
+RGL_young                686
+Immature-Astro           651
+Endothelial              543
+Cajal-Retzius            535
+CA3-Pyr                  532
+nIPC-perin               468
+MiCajal-Retziusoglia     428
+nIPC                     353
+NFOL                     232
+GABA                     209
+RGL                      199
+Ependymal                182
+VLMC                     160
+PVM                       79
+Name: count, dtype: int64
+Clusters with sufficient samples: CategoricalIndex(['Immature-Pyr', 'GC-juv', 'GC-adult', 'Immature-GC',
+                  'Neuroblast', 'Astro-adult', 'Immature-GABA', 'Astro-juv',
+                  'OPC', 'MOL', 'RGL_young', 'Immature-Astro', 'Endothelial',
+                  'Cajal-Retzius', 'CA3-Pyr', 'nIPC-perin',
+                  'MiCajal-Retziusoglia', 'nIPC', 'NFOL', 'GABA', 'RGL',
+                  'Ependymal', 'VLMC', 'PVM'],
+                 categories=['Astro-adult', 'Astro-juv', 'CA3-Pyr', 'Cajal-Retzius', ..., 'RGL_young', 'VLMC', 'nIPC', 'nIPC-perin'], ordered=False, dtype='category', name='cluster')
+D:\Gene_marker_identification2\COSG-main\cosg\cosg.py:397: ImplicitModificationWarning: Trying to modify attribute `._uns` of view, initializing view as actual.
+  adata.uns[key_added] = {}
+**finished identifying marker genes by COSG**
+**finished identifying marker genes by COSG**
+Marker genes saved to marker_genes.csv
+PS D:\Gene_marker_identification2\COSG-main\cosg>
